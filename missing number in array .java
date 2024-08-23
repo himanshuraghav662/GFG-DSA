@@ -6,6 +6,6 @@ class Solution {
             if(array[i]!=(i+1))
             return i+1;
         }
-        return array[n-2]+1;
+        return n;
     }
 }
