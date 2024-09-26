@@ -1,0 +1,11 @@
+class Solution{
+    static long factorial(int N){
+        long ans=1;
+        if(N==0)
+        return 1;
+        else
+        ans=factorial(N-1)*N;
+        
+        return ans;
+    }
+}
